@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     RadioButton genderButton2;
     Button submitButton;
     Button Test;
+    Button SubmitTest;
 
 
     @Override
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         genderInput = findViewById(R.id.radioGroup);
         submitButton = findViewById(R.id.submitButton);
         Test = findViewById(R.id.submitButton);
+        SubmitTest = findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,10 +65,16 @@ public class MainActivity extends AppCompatActivity {
                 else showErrorToast();
             }
         });
+        submitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity4();
+            }
+        });
         Test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //openActivity3();
+                openActivity3();
             }
         });
 
@@ -92,7 +100,15 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("user_male", male);
         intent.putExtra("user_female", female);
         startActivity(intent);
+    }
 
+    public void openActivity4(){
+        Intent intent = new Intent(this,Main4Activity.class);
+        intent.putExtra("user_name", name);
+        intent.putExtra("user_age", age);
+        intent.putExtra("user_male", male);
+        intent.putExtra("user_female", female);
+        startActivity(intent);
     }
 
 
