@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/changa_extralight"
+        android:lineSpacingMultiplier="0.7"
+        android:text="Symptoms"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/changa_extralight"
+        android:lineSpacingMultiplier="0.7"
+        android:text="Are you experiencing any fever?"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAge">
+
+    <RadioButton
+        android:id="@+id/maleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <RadioButton
+        android:id="@+id/femaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="No"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/changa_extralight"
+        android:lineSpacingMultiplier="0.7"
+        android:text="Do you currently have any cough?"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAge">
+
+
+    <RadioButton
+        android:id="@+id/maleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <RadioButton
+        android:id="@+id/femaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="No"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/changa_extralight"
+        android:lineSpacingMultiplier="0.7"
+        android:text="Have you been newar anyone with covid-19 like symptoms?"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAge">
+
+
+    <RadioButton
+        android:id="@+id/maleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <RadioButton
+        android:id="@+id/femaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="No"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/changa_extralight"
+        android:lineSpacingMultiplier="0.7"
+        android:text="Have you had any trouble breathing?"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAge">
+
+    <RadioButton
+        android:id="@+id/maleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <RadioButton
+        android:id="@+id/femaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="No"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:text="Submit"
+        app:backgroundTint="#4AB188"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
